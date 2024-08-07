@@ -1,0 +1,80 @@
+.admissions-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.admissions-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00447c;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.admissions-process,
+.admissions-criteria,
+.admissions-dates {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.admissions-process:hover,
+.admissions-criteria:hover,
+.admissions-dates:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.admissions-dates ul {
+  list-style: none;
+  padding: 0;
+}
+
+.date-item {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #444;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.date-item:hover {
+  background-color: #f0f8ff;
+  transform: translateX(5px);
+}
+
+.date {
+  font-weight: bold;
+  color: #00447c;
+}
+
+.event {
+  color: #666;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

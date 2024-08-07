@@ -1,0 +1,74 @@
+.about-us-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.about-us-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00447c;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-us-history,
+.about-us-vision,
+.about-us-mission,
+.about-us-principal-message,
+.about-us-infrastructure {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-us-history:hover,
+.about-us-vision:hover,
+.about-us-mission:hover,
+.about-us-principal-message:hover,
+.about-us-infrastructure:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1rem;
+  color: #444;
+  padding: 5px 0;
+  transition: color 0.3s, transform 0.3s;
+}
+
+li:hover {
+  color: #00447c;
+  transform: translateX(5px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
