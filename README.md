@@ -57,36 +57,36 @@ Here’s an overview of the key files and directories in the project:
 school-website/
 │
 ├── public/
-│   ├── index.html
-│   
+│ ├── index.html
+│ └── assets/ (contains images, videos, etc.)
 │
 ├── src/
-│   ├── components/
-│   │   ├── AboutUs.js
-│   │   ├── Academics.js
-│   │   ├── Admission.js
-│   │   ├── Faculty.js
-│   │   ├── Gallery.js
-│   │   ├── Home.js
-│   │   ├── Navbar.js
-│   │   ├── Footer.js
-│   │   ├── Students.js
-│   │   ├── Teachers.js
-│   │   └── Team.js
-│   ├── App.js
-│   ├── index.js
-│   └── styles/ (contains CSS files for components)
-│       ├── AboutUs.css
-│       ├── Academics.css
-│       ├── Admission.css
-│       ├── Faculty.css
-│       ├── Gallery.css
-│       ├── Home.css
-│       ├── Navbar.css
-│       ├── Footer.css
-│       ├── Students.css
-│       ├── Teachers.css
-│       └── Team.css
+│ ├── components/
+│ │ ├── AboutUs.js
+│ │ ├── Academics.js
+│ │ ├── Admission.js
+│ │ ├── Faculty.js
+│ │ ├── Gallery.js
+│ │ ├── Home.js
+│ │ ├── Navbar.js
+│ │ ├── Footer.js
+│ │ ├── Students.js
+│ │ ├── Teachers.js
+│ │ └── Team.js
+│ ├── App.js
+│ ├── index.js
+│ └── styles/ (contains CSS files for components)
+│ ├── AboutUs.css
+│ ├── Academics.css
+│ ├── Admission.css
+│ ├── Faculty.css
+│ ├── Gallery.css
+│ ├── Home.css
+│ ├── Navbar.css
+│ ├── Footer.css
+│ ├── Students.css
+│ ├── Teachers.css
+│ └── Team.css
 │
 ├── .gitignore
 ├── package.json
